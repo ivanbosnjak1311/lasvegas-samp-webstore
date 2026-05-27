@@ -34,7 +34,7 @@ function App() {
             </>
           }
         />
-        <Route path="/login" element={
+        <Route path="https://lasvegas-samp-webstore-demo.vercel.app/login" element={
             <>
               <Hero title="Enter username" />
               <Login />
