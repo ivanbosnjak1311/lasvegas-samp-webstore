@@ -9,7 +9,7 @@ export default function TopBar() {
   return (
     <div className="top-bar">
       <div className="container top-bar-content">
-        <a href="/login">Login</a>
+        <a href="https://lasvegas-samp-webstore-demo.vercel.app/login">Login</a>
         <div className="currency-dropdown" onClick={() => setIsOpen(!isOpen)}>
           {currency} <i className="fa-solid fa-angle-down"></i>
 
